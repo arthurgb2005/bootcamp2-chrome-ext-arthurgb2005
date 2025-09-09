@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Extensão Bootcamp",
   "version": "1.0.0",
-  "description": "Extensão mínima de teste com popup e ícones.",
+  "description": "Extensão exemplo para o bootcamp (popup + background).",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -10,5 +10,10 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     }
-  }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": []
 }
+
